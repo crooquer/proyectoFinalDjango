@@ -1,0 +1,154 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+     
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+
+
+    <script src="{% static 'js/modernizr.js' %}"></script>
+    <script src="{% static 'js/pace.min.js' %}"></script>
+
+
+    
+
+</head>
+
+
+<section id="services">
+
+    <div class="overlay"></div>
+
+    <div class="row section-intro">
+       <div class="col-twelve">
+
+           <h5>Servicios.</h5>
+           <h1>¿Que puedo hacer por ti?</h1>
+
+       </div>
+   </div><!-- /section-intro -->
+
+   <div class="row services-content">
+
+       <div id="owl-slider" class="owl-carousel services-list">
+
+          <div class="service">	
+
+              <span class="icon"><i class="icon-earth"></i></span>            
+
+            <div class="service-content">	
+
+                 <h3>Diseño Web</h3>
+
+                <p class="desc">¿Necesitas un sitio web atractivo, funcional y personalizado para tu negocio? ¡Estás en el lugar indicado! Nuestro equipo de expertos en diseño web está listo para brindarte un servicio de calidad que se adapte a tus necesidades y objetivos.</p>
+                 
+             </div> 	         	 
+
+            </div>
+
+            <div class="service">	
+
+                <span class="icon"><i class="icon-window"></i></span>                          
+
+            <div class="service-content">	
+
+                <h3>Desarrollo Web</h3>  
+
+                <p class="desc">¿Necesitas un sitio web dinámico, interactivo y totalmente funcional? ¡Estamos aquí para ayudarte! Nuestro equipo de expertos en desarrollo web ofrece soluciones a medida para satisfacer tus necesidades digitales.</p>
+
+            </div>	                          
+
+           </div>
+
+           <div class="service">
+
+               <span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+            <div class="service-content">
+
+                <h3>Gestion de Marca</h3>
+
+                <p class="desc">Nuestro servicio de gestión de marca está diseñado para ayudarte a construir una identidad sólida y coherente que represente los valores y la esencia de tu negocio.</p> 
+
+            </div> 	            	               
+
+           </div>
+
+            <div class="service">
+
+                <span class="icon"><i class="icon-toggles"></i></span>	              
+
+            <div class="service-content">
+
+                <h3>Diseño UI/UX</h3>
+
+                <p class="desc">Nuestro servicio de diseño UI/UX está diseñado para crear interfaces intuitivas y atractivas que maximicen la satisfacción de tus usuarios y hagan brillar tu producto o servicio.</p> 
+                 
+            </div>                
+
+            </div>
+
+           <div class="service">
+
+               <span class="icon"><i class="icon-image"></i></span>	            
+
+            <div class="service-content">
+
+                <h3>Diseño Grafico</h3>
+
+                <p class="desc">Nuestro servicio de diseño gráfico está diseñado para ayudarte a crear una identidad visual única y atractiva que capte la atención de tu audiencia.</p> 
+
+            </div>	               
+
+           </div>
+
+           <div class="service">
+
+               <span class="icon"><i class="icon-chat"></i></span>	   	           
+
+            <div class="service-content">
+
+                 <h3>Consultoria</h3>
+
+                <p class="desc">Nuestro servicio de consultoría está diseñado para ayudarte a alcanzar tus objetivos, superar desafíos y tomar decisiones estratégicas informadas.</p> 
+                    
+            </div>
+
+           </div>
+
+      </div>
+       
+   </div>
+    
+</section>
+
+
+
+
+
+<div id="preloader"> 
+    <div id="loader"></div>
+</div>
+   <!-- Java Script
+   ================================================== --> 
+   <script src="{% static 'js/jquery-2.1.3.min.js' %}"></script>
+   <script src="{% static 'js/plugins.js' %}"></script>
+   <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
+{% endblock %}

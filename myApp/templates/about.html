@@ -1,0 +1,102 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+     
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+
+
+    <script src="{% static 'js/modernizr.js' %}"></script>
+    <script src="{% static 'js/pace.min.js' %}"></script>
+
+
+    
+
+</head>
+
+<section id="about">
+
+    <div class="row section-intro">
+        <div class="col-twelve">
+
+            <h5>Sobre mi</h5>
+            <h1>Permiteme Presentarme</h1>
+
+            <div class="intro-info">
+
+                <img src="{% static 'images/foto.jpeg' %}" alt="FOTO">
+
+                <p class="lead">Mi nombre es Jose Crooquer. Actualmente, me encuentro inmerso en un apasionante proceso de formación en la UNRAF, donde estoy cursando la diplomatura de desarrollo de software. Tomé la decisión de embarcarme en esta carrera debido a mi profunda pasión por el mundo de la tecnología y la programación, una pasión que, por diversos motivos, había postergado en el pasado.
+                 Siento que he encontrado mi verdadera pasión en el desarrollo de software y estoy decidido a aprovechar al máximo esta oportunidad de crecimiento y aprendizaje. Espero poder aplicar mis habilidades y conocimientos en proyectos desafiantes que contribuyan al avance tecnológico y al desarrollo de soluciones innovadoras para los desafíos del mundo actual.
+             </p>
+            </div>
+
+        </div>   		
+    </div>
+
+    <div class="row about-content">
+
+        <div class="col-six tab-full">
+
+
+            <ul class="info-list">
+                <li>
+                    <strong>Nombre completo:</strong>
+                    <span>Jose A Crooquer</span>
+                </li>
+                <li>
+                    <strong>Fecha Nacimiento:</strong>
+                    <span>Octubre 26, 1989</span>
+                </li>
+                <li>
+                    <strong>Trabajo:</strong>
+                    <span>Freelancer, Frontend Developer</span>
+                </li>
+                
+                <li>
+                    <strong>Email:</strong>
+                    <span>josecrooquer@gmail.com</span>
+                </li>
+
+            </ul>
+
+        </div>
+     
+    </div>
+
+    <div class="row button-section">
+        <div class="col-twelve">
+            <a href="/Crooquer Colmenarez J.A. CV.pdf" title="Download CV" class="button button-primary">Descarga mi CV</a>
+        </div>   		
+    </div>
+
+</section>
+
+
+
+<div id="preloader"> 
+    <div id="loader"></div>
+</div>
+<!-- Java Script
+   ================================================== --> 
+   <script src="{% static 'js/jquery-2.1.3.min.js' %}"></script>
+   <script src="{% static 'js/plugins.js' %}"></script>
+   <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
+{% endblock %}
